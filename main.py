@@ -1,7 +1,7 @@
 import telebot
 from telebot import types
 # token for @bailandobot
-bot = telebot.TeleBot("1093604140:AAGlTCUgzPSLZsJNrSDO_hrj54IGbveU7NU")
+bot = telebot.TeleBot("1137424955:AAHjHv1UJcy7Nj-xex5-Hf1rieU8z5PjVoU")
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message: types.Message):
